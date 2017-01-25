@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$con = mysqli_connect("localhost","root","","ss");
+$con = mysqli_connect("localhost","root","root","ss");
 
 // Check connection
 if (mysqli_connect_errno())
